@@ -1,7 +1,7 @@
 const {Sequelize} =require('sequelize')
 
 
-const sequelize=new Sequelize("practice","root","rudy",{
+const sequelize=new Sequelize("Test","root","root",{
     dialect:"mysql",
     host:"localhost"
 })
